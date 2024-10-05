@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAHE IT Department LMS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SAHE</h1>
+            <h2>IT Department Learning Management System</h2>
+        </div>
+        <div class="login-form">
+            <form>
+                <div class="input-field">
+                    <label for="roll-number-email">Roll Number/Email:</label>
+                    <input type="text" id="roll-number-email" placeholder="Enter Roll Number (e.g., SAHE/1234) or Email (e.g., user@example.com)">
+                </div>
+                <div class="input-field">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter Password">
+                </div>
+                <a href="#" id="forgot-password">Forgot Password?</a>
+                <button type="submit" id="submit-button">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
